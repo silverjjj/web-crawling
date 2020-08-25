@@ -23,7 +23,7 @@ for i in range(len(ko_search)):
     options.add_argument('window-size=1920x1080')
 
     driver = webdriver.Chrome(
-            executable_path = "C:/Users/multicampus/chromedriver_win32/chromedriver.exe",
+            executable_path = "C:/~~~~~~~~~~~~~~~~~~~/chromedriver.exe",
             chrome_options=options)
     
     driver.get(url)
